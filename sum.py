@@ -1,6 +1,7 @@
-x,y=map(int,input().split())
-z=list(map (int,input().split()))
-d=0
-for i in range(y):
-  d=d+z[i]
-  print(d)
+D,K=map(int,input().split())
+i=0
+sum1=0
+while(i<=K)
+  sum1=sum1+i
+  i=i+1
+  print(sum1)
